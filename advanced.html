@@ -6,11 +6,15 @@
     <link rel="stylesheet" href="./styles.css" />
   </head>
   <body>
+    <div class="link-container">
+      <div class="link-box">
+        <a class="img-search-link" href="./index.html">Google Search</a>
+      </div>
     <div class="google-img">
         <img
           src="https://www.gstatic.com/images/branding/googlelogo/svg/googlelogo_clr_74x24px.svg"
         />
-        <a href="./index.html">Google Search</a>
+        
       </div>
 
       <div class="advanced-search-heading">
@@ -24,7 +28,7 @@
           <tr class="search-heading">
             <th class="table-head-one">Find Pages with...</th>
             <th></th>
-            <th class="table-head-two">To do this in the search box</th>
+            <th class="table-head-two dont-show-ele">To do this in the search box</th>
           </tr>
         </thead>
         <tbody>
@@ -32,28 +36,28 @@
             <td class="page-words">all these words:</td>
             <td class="advanced-inpts"><form action="https://google.com/search" method="get">
               <input  class="advanced-search-inputs" type="text" name="as_q" /></td>
-              <td class="page-words">Type the important words:  tricolor rat terrier</td>
+              <td class="page-words dont-show-ele">Type the important words:  tricolor rat terrier</td>
           </tr>
 
           <tr>
             <td class="page-words">this exact word or phrase:</td>
             <td class="advanced-inpts"><form action="https://google.com/search" method="get">
               <input  class="advanced-search-inputs" type="text" name="as_epq" /></td>
-              <td class="page-words">Put exact words in quotes: "rat terrier"</td>
+              <td class="page-words dont-show-ele">Put exact words in quotes: "rat terrier"</td>
           </tr>
 
           <tr>
             <td class="page-words">any of these words:</td>
             <td class="advanced-inpts"><form action="https://google.com/search" method="get">
               <input  class="advanced-search-inputs" type="text" name="as_oq" /></td>
-              <td class="page-words">Type OR between all the words you want: miniature OR standard</td>
+              <td class="page-words dont-show-ele">Type OR between all the words you want: miniature OR standard</td>
           </tr>
 
           <tr>
             <td class="page-words">none of these words:</td>
             <td class="advanced-inpts"><form action="https://google.com/search" method="get">
               <input  class="advanced-search-inputs" type="text" name="as_eq" /></td>
-              <td class="page-words">Put a minus sign just before words you don't want: -rodent, -"Jack Russell"</td>
+              <td class="page-words dont-show-ele">Put a minus sign just before words you don't want: -rodent, -"Jack Russell"</td>
           </tr>
           <tr>
             <td></td>
