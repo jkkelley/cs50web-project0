@@ -2,75 +2,180 @@
 <html lang="en">
   <head>
     <title>Advanced</title>
-    <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@100;300;500&display=swap" rel="stylesheet">
+    <link
+      href="https://fonts.googleapis.com/css2?family=Roboto:wght@100;300;500&display=swap"
+      rel="stylesheet"
+    />
     <link rel="stylesheet" href="./styles.css" />
   </head>
   <body>
-    <div class="link-container">
-      <div class="link-box">
-        <a class="img-search-link" href="./index.html">Google Search</a>
-      </div>
+    <div class="link-box">
+      <a class="img-search-link" href="./index.html">Google Search</a>
+    </div>
     <div class="google-img">
-        <img
-          src="https://www.gstatic.com/images/branding/googlelogo/svg/googlelogo_clr_74x24px.svg"
-        />
-        
-      </div>
+      <img
+        src="https://www.gstatic.com/images/branding/googlelogo/svg/googlelogo_clr_74x24px.svg"
+      />
+    </div>
 
-      <div class="advanced-search-heading">
-        <label >Advanced Search</label>
-      </div>
-    <hr>
-    <div class="main-container">
-      
-      <table>
-        <thead>
-          <tr class="search-heading">
-            <th class="table-head-one">Find Pages with...</th>
-            <th></th>
-            <th class="table-head-two dont-show-ele">To do this in the search box</th>
-          </tr>
-        </thead>
-        <tbody>
-          <tr>
-            <td class="page-words">all these words:</td>
-            <td class="advanced-inpts"><form action="https://google.com/search" method="get">
-              <input  class="advanced-search-inputs" type="text" name="as_q" /></td>
-              <td class="page-words dont-show-ele">Type the important words:  tricolor rat terrier</td>
-          </tr>
+    <div class="advanced-search-heading">
+      <label>Advanced Search</label>
+    </div>
+    <div class="bottom-border-split"></div>
 
-          <tr>
-            <td class="page-words">this exact word or phrase:</td>
-            <td class="advanced-inpts"><form action="https://google.com/search" method="get">
-              <input  class="advanced-search-inputs" type="text" name="as_epq" /></td>
-              <td class="page-words dont-show-ele">Put exact words in quotes: "rat terrier"</td>
-          </tr>
+    <div class="main-form-container">
+      <form action="https://google.com/search" method="get">
+        <div class="main-wrap-row">
+          <div class="clear">
+            <div class="heading-top">
+              <div class="span-class">
+                <span>Find pages with...</span>
+              </div>
+            </div>
+            <div class="empty-top"></div>
+            <div class="top-right-heading">
+              <div class="span-class">
+                To do this in the search box
+              </div>
+            </div>
+          </div>
+        </div>
+        <div class="main-wrap-row">
+          <div class="clear">
+            <div class="find-pages-wording">
+              <div class="span-class">
+                <label> all these words: </label>
+              </div>
+            </div>
+            <div class="main-input-container">
+              <div class="main-input-wrapper">
+                <input
+                  class="textinput"
+                  name="as_q"
+                  type="text"
+                  style="
+                    background-image: url('./assets/inputBtn.png');
+                    background-repeat: no-repeat;
+                    background-attachment: scroll;
+                    background-size: 16px 18px;
+                    background-position: 98% 50%;
+                    cursor: auto;
+                    autofocus: autofocus;
+                  "
+                />
+              </div>
+            </div>
+            <div class="search-info search-info-two">
+              <div class="span-class">
+                Type the important words:
+                <span class="monospace"> tricolor rat terrier</span>
+              </div>
+            </div>
+          </div>
+        </div>
 
-          <tr>
-            <td class="page-words">any of these words:</td>
-            <td class="advanced-inpts"><form action="https://google.com/search" method="get">
-              <input  class="advanced-search-inputs" type="text" name="as_oq" /></td>
-              <td class="page-words dont-show-ele">Type OR between all the words you want: miniature OR standard</td>
-          </tr>
+        <div class="main-wrap-row">
+          <div class="clear">
+            <div class="find-pages-wording">
+              <div class="span-class">
+                <label> this exact word or phrase: </label>
+              </div>
+            </div>
+            <div class="main-input-container">
+              <div class="main-input-wrapper">
+                <input
+                  class="textinput"
+                  name="as_q"
+                  type="text"
+                  style="
+                    background-image: url('./assets/inputBtn.png');
+                    background-repeat: no-repeat;
+                    background-attachment: scroll;
+                    background-size: 16px 18px;
+                    background-position: 98% 50%;
+                    cursor: auto;
+                    autofocus: autofocus;
+                  "
+                />
+              </div>
+            </div>
+            <div class="search-info search-info-two">
+              <div class="span-class">
+                Put exact words in quotes:
+                <span class="monospace"> "rat terrier"</span>
+              </div>
+            </div>
+          </div>
+        </div>
 
-          <tr>
-            <td class="page-words">none of these words:</td>
-            <td class="advanced-inpts"><form action="https://google.com/search" method="get">
-              <input  class="advanced-search-inputs" type="text" name="as_eq" /></td>
-              <td class="page-words dont-show-ele">Put a minus sign just before words you don't want: -rodent, -"Jack Russell"</td>
-          </tr>
-          <tr>
-            <td></td>
-            <td></td>
-            <td class="search-btn-pos"><input
-              class="advanced-search-btn"
-              type="submit"
-              value="Advanced Search"
-            /></td>
-          </tr>
-        </tbody>
-      </table>
-    <div>
-      <hr>
+        <div class="main-wrap-row">
+          <div class="clear">
+            <div class="find-pages-wording">
+              <div class="span-class">
+                <label> any of these words: </label>
+              </div>
+            </div>
+            <div class="main-input-container">
+              <div class="main-input-wrapper">
+                <input
+                  class="textinput"
+                  name="as_q"
+                  type="text"
+                  style="
+                    background-image: url('./assets/inputBtn.png');
+                    background-repeat: no-repeat;
+                    background-attachment: scroll;
+                    background-size: 16px 18px;
+                    background-position: 98% 50%;
+                    cursor: auto;
+                    autofocus: autofocus;
+                  "
+                />
+              </div>
+            </div>
+            <div class="search-info search-info-two">
+              <div class="span-class">
+                Type OR between all the words you want:
+                <span class="monospace"> miniature OR standard</span>
+              </div>
+            </div>
+          </div>
+        </div>
+
+        <div class="main-wrap-row">
+          <div class="clear">
+            <div class="find-pages-wording">
+              <div class="span-class">
+                <label> none of these words: </label>
+              </div>
+            </div>
+            <div class="main-input-container">
+              <div class="main-input-wrapper">
+                <input
+                  class="textinput"
+                  name="as_q"
+                  type="text"
+                  style="
+                    background-image: url('./assets/inputBtn.png');
+                    background-repeat: no-repeat;
+                    background-attachment: scroll;
+                    background-size: 16px 18px;
+                    background-position: 98% 50%;
+                    cursor: auto;
+                    autofocus: autofocus;
+                  "
+                />
+              </div>
+            </div>
+            <div class="search-info search-info-two">
+              <div class="span-class">
+                Put a minus sign just before words you don't want:
+                <span class="monospace"> -rodent, -"Jack Russell"</span>
+              </div>
+            </div>
+          </div>
+        </div>
+      </form>
+    </div>
   </body>
 </html>
